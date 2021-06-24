@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://source/ui/ChngScnBtn.gd" type="Script" id=1]
+
+[node name="ChngScnBtn" type="Button"]
+margin_right = 276.0
+margin_bottom = 115.0
+size_flags_vertical = 3
+text = "Play"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_up" from="." to="." method="_on_ChngScnBtn_up"]
